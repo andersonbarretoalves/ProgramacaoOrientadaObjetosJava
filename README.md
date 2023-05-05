@@ -60,3 +60,10 @@ parte dos objetos criados a partir da classe.
 * **Atributo:** o que é próprio e peculiar a alguém ou alguma coisa.
 * **Variável:** sujeito a variações ou mudanças; que pode variar; incostante,
 instável.
+
+### Método
+É uma porção de código (sub-rotina) que é dosponibilizadapela classe. Este é
+executado quando é feito uma requisição a ele. Um método serve para identificar 
+quais serviços, ações, que a classe oferece. Eles são responsáveis por definir
+e realizar um determinado comportamento.
+
