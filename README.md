@@ -108,3 +108,21 @@ Ex: pagamento <-- (Boleto, Credito, Debito, pix)
 A mesma ação, podendo se comportar doferente.<br>
 Ex: Conta `double saldo` `exibirSaldo()` <-- (Corrente, Poupanca `exibirSaldo()`, 
 Especial `exibirSaldo()`, Universitaria).
+
+## Associação
+Possibilita um relacionamento entre classes/objetos e representar de forma
+completa o conceito ao qual se destinam. Neste tipo de relacionamento, as
+classes e os objetos interagem entre si para atingir seus objetivos.
+
+**Tipos:**
+* Estrutural
+  * -Composição: "com parte todo"<br>
+  Ex: Pessoa e Endereço<br>
+  `classe Pessoa {Endereco endereco;}`  
+  * -Agregação: "sem parte todo"<br>
+  Ex: Diciplica e Aluno<br>
+  `classe Diciplina {Aluno aluno;}`
+* Comportamental
+  * -Dependência: "Depende de"<br>
+  Ex: `classe Compra(Cupom cupom, ...) {...}`
+  
