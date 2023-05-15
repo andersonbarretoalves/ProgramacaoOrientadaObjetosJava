@@ -131,8 +131,30 @@ Define um contrato que deve ser seguido pela classe que a implementa.
 Quando uma classe implementa uma interface, ela se compromete a realizar
 todos os comportamentos que a interface disponibiliza.
 
+---
+
 ## Pacotes
 São uma organização física ou lógica criada para separar classes com responsabilidades
 distintas. Com isso, espera-se que a aplicação fique mais organizada e seja possível
 separar classes de finalidades e representatividades diferentes.
+  
+## Visibilidades
+Um modificador de acesso tem como finalidade determinar até que ponto uma
+classe, atributo ou método pode ser usado. A utilização de modificadores
+de acesso é fundamental para o uso efetivo da Orientação a Objeto.
+Algumas boas práticas e conceitos só atingidos com o uso corretos deles.
+
+* **Tipos**
+  * Private:<br>
+  Visível só dentro da classe.<br>
+  `private int i;`<br>
+  `private void do();`  
+  * Protected:<br>
+  Dentro da classe, mesmo pacote e subclasses.<br>
+  `protected int i;`<br>
+  `protected void do();`
+  * Public:<br>
+  Em qualquer lugar.<br>
+  `public int i;`<br>
+  `public void do();`
   
