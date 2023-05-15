@@ -120,9 +120,19 @@ classes e os objetos interagem entre si para atingir seus objetivos.
   Ex: Pessoa e Endereço<br>
   `classe Pessoa {Endereco endereco;}`  
   * -Agregação: "sem parte todo"<br>
-  Ex: Diciplica e Aluno<br>
+  Ex: Diciplina e Aluno<br>
   `classe Diciplina {Aluno aluno;}`
 * Comportamental
   * -Dependência: "Depende de"<br>
   Ex: `classe Compra(Cupom cupom, ...) {...}`
+
+## Interface
+Define um contrato que deve ser seguido pela classe que a implementa.
+Quando uma classe implementa uma interface, ela se compromete a realizar
+todos os comportamentos que a interface disponibiliza.
+
+## Pacotes
+São uma organização física ou lógica criada para separar classes com responsabilidades
+distintas. Com isso, espera-se que a aplicação fique mais organizada e seja possível
+separar classes de finalidades e representatividades diferentes.
   
